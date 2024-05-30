@@ -24,7 +24,7 @@ public class UserController {
 		
 		
 		@Autowired
-		HttpServletResponse response;
+		HttpServletResponse response1;
 		
 		@GetMapping("create")
 		public String createGet() {
