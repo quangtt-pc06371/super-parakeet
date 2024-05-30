@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Data from Request Parameter:</h1>
+	<h1 th:text="${data}"></h1>
+	<h1>Data from Session: </h1>
+    <h1 th:text="${dataSesion}"></h1>
+    <h1>Data from Servlet Context:</h1>
+    <h1 th:text="${dataContext}"></h1>
+</body>
+</html>
